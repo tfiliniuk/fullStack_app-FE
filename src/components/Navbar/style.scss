@@ -1,0 +1,73 @@
+.header {
+  min-height: 60px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 18px 15px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  min-height: 60px;
+  &__left {
+    flex: 1;
+    position: relative;
+    &-link {
+      margin-left: 10px;
+      color: #fed189;
+    }
+  }
+  &__right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__toggle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    .ant-btn-icon-only {
+      width: 20px;
+      height: 20px;
+      border-radius: 0;
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      text-shadow: none;
+      line-height: 1;
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+  &__auth {
+    &-name {
+      margin-right: 10px;
+    }
+    &-btn {
+      padding: 0 5px;
+      font-size: 14px;
+      color: #bdbdbd;
+      border: 1px solid #b9b9b9;
+      background: transparent;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+
+.logo {
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: #fed189;
+  span {
+    color: #00a0df;
+  }
+}

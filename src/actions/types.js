@@ -1,0 +1,16 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const USER_LOADING = "USER_LOADING";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const RECEIVE_USER_LOGOUT = "RECEIVE_USER_LOGOUT";
+
+
+export const RECEIVE_TODOS = "RECEIVE_TODOS";
+export const RECEIVE_TODO = "RECEIVE_TODO";
+export const RECEIVE_EDIT_TODO = "RECEIVE_EDIT_TODO";
+export const REMOVE_TODO = "REMOVE_TODO";
+
+
+export const GET_CHATS = "GET_CHATS";
+export const AFTER_POST_MESSAGE = "AFTER_POST_MESSAGE";
+
+export const RECEIVE_USER_TODOS = "RECEIVE_USER_TODOS";
